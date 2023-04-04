@@ -32,4 +32,4 @@ Contributors names and contact info<br>
 [Sudhanshu Prasad](https://github.com/sudhanshuprasad) : Drone Delivery System<br>
 [Aakarsh Vatsraj](https://github.com/Aakarsh05) : Backend and React<br>
 [Subhash Mandal](https://github.com/subhash1583) : Frontend and UI<br>
-[Sai Swarupa Das](https://github.com/subhash1583) : Cloud and Deployment
+[Sai Swarupa Das](https://github.com/saiswarupa706) : Cloud and Deployment
