@@ -1,5 +1,5 @@
-# Project Title
-Simple overview of use/purpose.
+# Pharma Easy
+This website is made to deliver medicines within minutes.
 ## Description
 <hr>
 About the website:<br>
