@@ -1,4 +1,4 @@
-# Pharma Easy
+# CareConnects
 This website is made to deliver medicines within minutes.
 ## Description
 <hr>
