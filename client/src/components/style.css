@@ -390,13 +390,10 @@ video {
     background-color: #20cb98;
     width: 800px;
     height: 90vh;
-    background-image: url('images/accuray-NHZl162AupI-unsplash.jpg');
+    background-image: url('./images/accuray-NHZl162AupI-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
-
 }
 
 @media screen and (max-width: 450px) {
@@ -414,7 +411,6 @@ video {
         top: 0;
         background-color: rgba(255, 255, 255, .2);
         backdrop-filter: blur(2px);
-
     }
 
     .header_text {
@@ -424,8 +420,6 @@ video {
         font-size: 1.5rem;
         color: rgb(0, 0, 0);
         background: transparent;
-
-
     }
 
     .para_text {
@@ -517,9 +511,7 @@ video {
     align-items: center;
     margin: 0 2rem;
     z-index: 30;
-
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
 
 }
 
@@ -604,7 +596,6 @@ video {
 
 .slider__btn--left {
     left: 6%;
-
     transform: translate(-50%, -50%);
 }
 
@@ -612,8 +603,6 @@ video {
     position: absolute;
     top: 47.5%;
     right: 6%;
-
-
     transform: translate(50%, -50%);
 }
 
@@ -634,7 +623,7 @@ video {
 }
 
 .advice_img {
-    background-image: url('images/national-cancer-institute-6jpjF_eDvZU-unsplash.jpg');
+    background-image: url('./images/national-cancer-institute-6jpjF_eDvZU-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -658,11 +647,10 @@ video {
     z-index: 12;
     border-radius: 4px;
 
-
 }
 
 .child_img {
-    background-image: url('images/doctor-taking-body-temperature-her-patient-hospital-room.jpg');
+    background-image: url('./images/doctor-taking-body-temperature-her-patient-hospital-room.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -671,7 +659,7 @@ video {
 }
 
 .pathology_img {
-    background-image: url('images/closeup-doctor-woman-hands-analyzing-microbiology-disease-test-results.jpg');
+    background-image: url('./images/closeup-doctor-woman-hands-analyzing-microbiology-disease-test-results.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -688,7 +676,7 @@ video {
 }
 
 .ortho_img {
-    background-image: url('images/happy-mature-woman-wheelchair-holding-hands-with-her-doctor-hospital-hallway.jpg');
+    background-image: url('./images/happy-mature-woman-wheelchair-holding-hands-with-her-doctor-hospital-hallway.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -697,7 +685,7 @@ video {
 }
 
 .cardio_img {
-    background-image: url('images/attractive-young-woman-her-trainer-running-treadmill-gym.jpg');
+    background-image: url('./images/attractive-young-woman-her-trainer-running-treadmill-gym.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -706,7 +694,7 @@ video {
 }
 
 .yoga_img {
-    background-image: url('images/joyful-woman-taking-picture-her-yoga-session.jpg');
+    background-image: url('./images/joyful-woman-taking-picture-her-yoga-session.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -738,7 +726,6 @@ section-4 end */
     height: 300px;
     max-width: 350px;
     margin-top: 1.5rem;
-
     flex-direction: column;
 }
 
@@ -783,7 +770,7 @@ section-4 end */
 }
 
 .sec_5_right_img {
-    background-image: url('images/pexels-edward-jenner-4031820.jpg');
+    background-image: url('./images/pexels-edward-jenner-4031820.jpg');
     width: 500px;
     height: 670px;
     background-position: center;
@@ -887,14 +874,10 @@ section-4 end */
     justify-content: center;
     margin-left: 1rem;
 
-
-
-
 }
 
 .container-icon:hover {
     background-color: rgb(55, 143, 211);
-
     transition: all 1s;
 }
 
@@ -908,7 +891,7 @@ section-4 end */
 .sec_6-img1 {
     height: 250px;
     width: 350px;
-    background-image: url('images/successful-medical-team.jpg');
+    background-image: url('./images/successful-medical-team.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -919,10 +902,9 @@ section-4 end */
     position: absolute;
     top: 250px;
     left: 250px;
-
     height: 250px;
     width: 350px;
-    background-image: url('images/medical-banner-with-doctor-wearing-glove.jpg');
+    background-image: url('./images/medical-banner-with-doctor-wearing-glove.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1377,7 +1359,7 @@ video {
 
     width: 800px;
     height: 90vh;
-    background-image: url('image/accuray-NHZl162AupI-unsplash.jpg');
+    background-image: url('./image/accuray-NHZl162AupI-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2013,7 +1995,7 @@ video {
 
 
 .item-1 {
-    background-image: url('icon/toothbrushing.png');
+    background-image: url('./icon/toothbrushing.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2021,7 +2003,7 @@ video {
 }
 
 .item-2 {
-    background-image: url('icon/nutrition.png');
+    background-image: url('./icon/nutrition.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2029,7 +2011,7 @@ video {
 }
 
 .item-3 {
-    background-image: url('icon/diet.png');
+    background-image: url('./icon/diet.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2037,7 +2019,7 @@ video {
 }
 
 .item-4 {
-    background-image: url('icon/handcare.png');
+    background-image: url('./icon/handcare.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2045,7 +2027,7 @@ video {
 }
 
 .item-5 {
-    background-image: url('icon/tooth-whitening.png');
+    background-image: url('./icon/tooth-whitening.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2053,7 +2035,7 @@ video {
 }
 
 .item-6 {
-    background-image: url('icon/lungs.png');
+    background-image: url('./icon/lungs.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2061,7 +2043,7 @@ video {
 }
 
 .item-7 {
-    background-image: url('icon/condom.png');
+    background-image: url('./icon/condom.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2069,7 +2051,7 @@ video {
 }
 
 .item-8 {
-    background-image: url('icon/allergy.png');
+    background-image: url('./icon/allergy.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2077,7 +2059,7 @@ video {
 }
 
 .item-9 {
-    background-image: url('icon/sore-throat.png');
+    background-image: url('./icon/sore-throat.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2085,7 +2067,7 @@ video {
 }
 
 .item-10 {
-    background-image: url('icon/eye.png');
+    background-image: url('./icon/eye.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2093,7 +2075,7 @@ video {
 }
 
 .item-11 {
-    background-image: url('icon/herbal.png');
+    background-image: url('./icon/herbal.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2101,7 +2083,7 @@ video {
 }
 
 .item-12 {
-    background-image: url('icon/pills.png');
+    background-image: url('./icon/pills.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2165,7 +2147,7 @@ video {
 }
 
 .section-6 {
-    background-image: url('image/hyberdad.jpg');
+    background-image: url('./image/hyberdad.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -2211,7 +2193,7 @@ video {
 /* section 6 responsive mobile */
 @media only screen and (max-width: 450px) {
     .section-6 {
-        background-image: url('image/hyberdad.jpg');
+        background-image: url('./image/hyberdad.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

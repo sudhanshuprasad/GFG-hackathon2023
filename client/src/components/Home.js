@@ -1,6 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./style.css"
+import support24_7 from "./icon/support24-7.png"
+import doctor_color from "./icon/doctor -color.png"
+import doc_pat from "./image/doc_pat.jpg"
+import drone from "./icon/drone.png"
+import medical_team from "./icon/medical-team.png"
+import pills_icon from "./icon/pills_icon.png"
+import med_hand from "./image/med-hand.jpg"
+import lifestyle from "./image/lifestyle.jpg"
+import yoga_pose from "./icon/yoga-pose.png"
+import accuray_NHZl162AupI_unsplash from "./images/accuray-NHZl162AupI-unsplash.jpg"
+
 const Home = () => {
     return (
         <>
@@ -86,18 +97,18 @@ const Home = () => {
                         </button>
                     </div>
                 </div>
-                <div className="section_1-right_1"></div>
+                <div className="section_1-right_1" style ={ { backgroundImage: `url("${accuray_NHZl162AupI_unsplash}")` }}></div>
                 <div className="outer_container">
                     <div className="support">
                         <div className="support_icon">
-                            <img src="icon\24-7.png" />
+                            <img src={support24_7} alt=''/>
                         </div>
                         <h4 style={{ marginTop: "2.8rem" }}>24X7 Support</h4>
                         <p>industry's standard dummand scrambled</p>
                     </div>
                     <div className="doc_con">
                         <div className="doctor_icon">
-                            <img src="icon\doctor -color.png" />
+                            <img src={doctor_color} alt=''/>
                         </div>
                         <h4 style={{ marginTop: "2rem" }}>Qualified Doctor</h4>
                         <p>industry's standard dummand scrambled</p>
@@ -114,11 +125,11 @@ const Home = () => {
             {/*section-2 for doctor consult*/}
             <section className="sections section-2">
                 <div className="sec-2_left">
-                    <img src="image\doc_pat.jpg" />
+                    <img src={doc_pat} />
                 </div>
                 <div className="sec-2_right">
                     <div className="sec-2 doc_logo">
-                        <img src="icon\medical-team.png" />
+                        <img src={medical_team} />
                     </div>
                     <div className="sec-2 doc_heading">
                         <h1>Qualified Doctor</h1>
@@ -139,7 +150,7 @@ const Home = () => {
             <section className="sections section-3">
                 <div className="sec-3_left">
                     <div className="sec-3 med_logo">
-                        <img src="icon\pills_icon.png" />
+                        <img src={pills_icon} />
                     </div>
                     <div className="sec-3 med_heading">
                         <h1>Best Medicine-Best Rate </h1>
@@ -155,17 +166,17 @@ const Home = () => {
                     <button className="sec-3 med-button">Shope Now</button>
                 </div>
                 <div className="sec-3_right">
-                    <img src="image\med-hand.jpg" />
+                    <img src={med_hand} alt='' />
                 </div>
             </section>
             {/*section-4 for life style*/}
             <section className="sections section-4">
                 <div className="sec-4_left">
-                    <img src="image\lifestyle.jpg" />
+                    <img src={lifestyle} />
                 </div>
                 <div className="sec-4_right">
                     <div className="sec-4 lifestyle_logo">
-                        <img src="icon\yoga-pose.png" />
+                        <img src={yoga_pose} />
                     </div>
                     <div className="sec-4 lifestyle_heading">
                         <h1>Prevention Is Better Than Cure</h1>
@@ -295,7 +306,7 @@ const Home = () => {
             <hr className="sec-1_line" />
             <section className="sections section-6">
                 <div className="dr">
-                    <img className="drone_icon" src="icon\drone.png" />
+                    <img className="drone_icon" src={drone} />
                 </div>
                 <div className="sec-6_content">
                     <h1 style={{ margin: "1rem" }}>FAST DELIVERY</h1>
