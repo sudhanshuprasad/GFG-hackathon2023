@@ -58,7 +58,6 @@ vehicle.mav.send(message)
 # create target counter
 target_counter = 0
 
-# do below always
 while True:
 
     # catch a message
@@ -66,7 +65,6 @@ while True:
                                        dialect.MAVLink_global_position_int_message.msgname],
                                        blocking=True)
 
-    # convert the message to dictionary
     message = message.to_dict()
 
     # get vehicle's current location
