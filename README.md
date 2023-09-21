@@ -1,35 +1,41 @@
-# Pharma Easy
-This website is made to deliver medicines within minutes.
+# Project Title
+Simple overview of use/purpose.
 ## Description
-<hr>
-About the website:<br>
- The repository consists of three parts
- 
- 1. The frontend is built using react
- 2. The backend is built using nodejs:<br>
-        It deals with the login and most of the activities related to React app (Part 1).<br>
-        It gives the delivery information to the Django app (Part 3).<br>
- 3. The drone delivery system consist of two parts: 
-        
-    1. Django application to recieve network request from the NodeJS server.<br>
-    2. The other part deals with the communication with drone using MavLink protocol.<br>
-<br>
-<hr>
-Current state of completion:
-1. Frontend: 50%
-2. Backend: 10%
-3. Delivery system: 50%
-<hr>
-<br>
-
+An in-depth paragraph about your project and overview of use.
+## Getting Started
+### Dependencies
+* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* ex. Windows 10
+### Installing
+* How/where to download your program
+* Any modifications needed to be made to files/folders
 ### Executing program
 * How to run the program
+* Step-by-step bullets
 ```
-npm start
+code blocks for commands
+```
+## Help
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
 ```
 ## Authors
-Contributors names and contact info<br>
-[Sudhanshu Prasad](https://github.com/sudhanshuprasad) : Drone Delivery System<br>
-[Aakarsh Vatsraj](https://github.com/Aakarsh05) : Backend and React<br>
-[Subhash Mandal](https://github.com/subhash1583) : Frontend and UI<br>
-[Sai Swarupa Das](https://github.com/saiswarupa706) : Cloud and Deployment
+Contributors names and contact info
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
+## Version History
+* 0.2
+* Various bug fixes and optimizations
+* See [commit change]() or See [release history]()
+* 0.1
+* Initial Release
+## License
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+## Acknowledgments
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* [dbader](https://github.com/dbader/readme-template)
+* [zenorocha](https://gist.github.com/zenorocha/4526327)
+* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
